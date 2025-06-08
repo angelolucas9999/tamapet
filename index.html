@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamapet - Seu Bichinho Virtual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Tamapet</h1>
+        <div id="pet-container">
+            <!-- O bichinho será renderizado aqui -->
+        </div>
+        <div id="controls">
+            <button id="btn-feed">Alimentar</button>
+            <button id="btn-sleep">Dormir</button>
+            <button id="btn-play">Brincar</button>
+        </div>
+        <div id="status">
+            <div class="status-bar">
+                <span>Energia: </span>
+                <div id="energy-bar" class="bar"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/state.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
